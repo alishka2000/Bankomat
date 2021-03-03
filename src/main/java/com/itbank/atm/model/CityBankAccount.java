@@ -2,12 +2,12 @@ package com.itbank.atm.model;
 
 public class CityBankAccount extends BankAccount{
     private String name;
-    private String surmane;
+    private String surname;
 
     public CityBankAccount(String name, String surname, Integer balance, String accountNumber, String PIN) {
         super(balance,accountNumber,PIN);
         this.name = name;
-        this.surmane = surname;
+        this.surname = surname;
     }
 
     public String getName() {
@@ -18,19 +18,19 @@ public class CityBankAccount extends BankAccount{
         this.name = name;
     }
 
-    public String getSurmane() {
-        return surmane;
+    public String getSurname() {
+        return surname;
     }
 
-    public void setSurmane(String surmane) {
-        this.surmane = surmane;
+    public void setSurname(String surname) {
+        this.surname = surname;
     }
 
     @Override
     public String toString() {
         return "CityBankAccount{" +
                 "name='" + name + '\'' +
-                ", surmane='" + surmane + '\'' +
+                ", surmane='" + surname + '\'' +
                 ", " + super.toString() +
                 '}';
     }

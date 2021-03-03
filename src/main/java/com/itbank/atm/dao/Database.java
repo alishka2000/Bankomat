@@ -38,6 +38,39 @@ public class Database {
                 4000000,
                 "kz4521",
                 "7777"));
+        bankAccountList.add(new CityBankAccount(
+                "Zhambul",
+                "Mukhammedali",
+                1000000,
+                "kz4141",
+                "2000"));
+        bankAccountList.add(new CityBankAccount(
+                "Azamat",
+                "Shaikov",
+                500000,
+                "kz1000",
+                "4234"));
+        bankAccountList.add(new NationalBankAccount(
+                "Zhangir Izbaskanov",
+                355640,
+                "kz1234",
+                "8888"));
+        bankAccountList.add(new NationalBankAccount(
+                "Ashat Kemelbekov",
+                123456,
+                "kz1431",
+                "7984"));
+        bankAccountList.add(new CityBankAccount(
+                "Lyazzat",
+                "Abdez",
+                900000,
+                "kz5986",
+                "2002"));
+        bankAccountList.add(new NationalBankAccount(
+                "Dana Nakhipova",
+                555555,
+                "kz1419",
+                "8976"));
 
     }
 }

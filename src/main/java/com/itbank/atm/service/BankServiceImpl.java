@@ -45,6 +45,7 @@ public class BankServiceImpl implements BankService {
         {
             client.setPinCode(pinCode);
         }
+        System.out.println("Your old PIN is :" + client.getPinCode());
         System.out.println("Ur new PINCODE is : " + client.getPinCode());
 
     }
@@ -60,6 +61,7 @@ public class BankServiceImpl implements BankService {
     {
         Integer totalAmount = client.getBalance();
         Integer minusMoney = money;
+        System.out.println("You withdraw " + money + " !");
         System.out.println("Now ur total balance is : " + (totalAmount - money));
     }
 
@@ -68,6 +70,7 @@ public class BankServiceImpl implements BankService {
     {
         Integer totalAmount = client.getBalance();
         Integer plusMoney = money;
+        System.out.println("You added " + money + " !");
         System.out.println("Now ur total balance is : " + (totalAmount + money));
     }
 
